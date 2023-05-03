@@ -9,3 +9,4 @@ Setting a few goals:
 <li>Automated testing</li>
 <li>Storing artifact into ghcr</li>
 <li>Deploying to a CaaS like Azure Container Instances</li>
+<li>Adding some metrics tracking</li>
