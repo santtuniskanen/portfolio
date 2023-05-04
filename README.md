@@ -3,7 +3,7 @@ This project is part of my summer education. The project foundations are built u
 
 # Objective
 The objective is to build a portfolio website to showcase some of my qualifications and achivements, 
-whether it's based on education or my hobbies. Since this is a DevOps Software Engineering project, I need to incorporate more than a few DevOps tools and practices along the project.
+whether it's based on education or my hobbies. Since this is a DevOps Software Engineering project, I need to incorporate more than a few DevOps tools and practices within the project, like deployment, pipelines or metrics tracking.
 
 ## Setting a few goals:
 <li>Set up a pipeline to merge changes</li>
