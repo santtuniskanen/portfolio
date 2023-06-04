@@ -9,13 +9,7 @@ function App() {
       <main>
         <article>
           <p>Hello</p>
-          <p>aayyayaya</p>
-          <p>aayyayaya</p>
-          <p>aayyayaya</p>
-          <p>aayyayaya</p>
-          <p>aayyayaya</p>
-          <p>aayyayaya</p>
-          <p>aayyayaya</p>
+          <p>Hello</p>
         </article>
       </main>
       <footer className="App-footer">
