@@ -11,6 +11,9 @@ function App() {
           <p>Hello</p>
           <p>Hello</p>
           <p>Hello</p>
+          <p>Hello</p>
+          <p>Hello</p>
+          <p>Hello</p>
         </article>
       </main>
       <footer className="App-footer">
