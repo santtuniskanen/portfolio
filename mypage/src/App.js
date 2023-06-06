@@ -8,10 +8,7 @@ function App() {
       </header>
       <main>
         <article>
-          <p>Hello</p>
-          <p>Hello</p>
-          <p>Hello</p>
-          <p>Hello</p>
+          <p>Hello world</p>
         </article>
       </main>
       <footer className="App-footer">
