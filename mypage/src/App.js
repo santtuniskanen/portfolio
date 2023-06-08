@@ -3,17 +3,9 @@ import './App.css';
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <h1>Santtu Niskanen</h1>
-      </header>
-      <main>
-        <article>
-          <p>Hello world</p>
-        </article>
-      </main>
-      <footer className="App-footer">
-        <h1>This is my personal page</h1>
-      </footer>
+      <h1>Santtu Niskanen</h1>
+      &nbsp;
+      <p>I am a 20-year-old Software Engineering student from Oulu, Finland. I have an interest towards DevOps.</p>
     </div>
   );
 }
