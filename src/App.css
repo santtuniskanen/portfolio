@@ -1,12 +1,13 @@
 * {
-  background-color: #282828;
-  color:#ebdbb2;
+  background-color: #000000;
+  color:#FFFFFF;
 }
 
 .App {
   text-align: center;
-  background-color: #282828;
-  color: #ebdbb2;
+  background-color: #000000;
+  color: #FFFFFF;
+  line-height: 2;
 }
 
 .flexbox-container {
