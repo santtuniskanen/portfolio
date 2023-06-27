@@ -15,7 +15,7 @@ function App() {
           &nbsp;
           <h2>Outside of school, I'm very much into working out, whether it's at the gym
           or cycling somewhere in the woods. I'm into all kinds of video games and 
-          I'm into Mechanical Keyboards as well.</h2>
+          I really like custom Mechanical Keyboards as well.</h2>
         </div>
     </div>
   );
