@@ -13,7 +13,7 @@ import stardewImg from '../public/assets/projects/stardewImg.jpg';
 
 const Projects = () => {
     return (
-        <div className="w-full">
+        <div id='projects' className="w-full">
             <div className="max-w-[1240p] mx-auto px-2 py-16">
                 <p2 className="text-xl tracking-widest uppercase text-[#5651e5]">Projects</p2>
                 <h2 className="py-4">What I've built</h2>
