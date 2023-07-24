@@ -2,9 +2,14 @@ import React from "react";
 import Image from "next/image";
 import Link from "next/link";
 import Vahti from "./ProjectsComponents/Vahti";
-import VahtiImg from '../public/assets/projects/vahti.png';
-import BankSimulImg from '../public/assets/projects/BankSimulatorImage.jpg';
 import BankSimul from "./ProjectsComponents/BankSimul";
+import DevOps from "./ProjectsComponents/DevOps";
+import StardewMod from "./ProjectsComponents/StardewModding";
+import VahtiImg from '../public/assets/projects/vahti.jpg';
+import BankSimulImg from '../public/assets/projects/BankSimulatorImage.jpg';
+import DevOpsImg from '../public/assets/projects/DevOps.jpg';
+import stardewImg from '../public/assets/projects/stardewImg.jpg';
+
 
 const Projects = () => {
     return (
@@ -16,11 +21,19 @@ const Projects = () => {
                     <Vahti 
                         title="Vahti"
                         backgroundImg={VahtiImg}
-                        projectUrl='/vahti'/>
+                        projectUrl='/Vahti'/>
                     <BankSimul 
                         title="Vahti"
                         backgroundImg={BankSimulImg}
                         projectUrl='/BankSimul'/>
+                    <DevOps 
+                        title="Vahti"
+                        backgroundImg={DevOpsImg}
+                        projectUrl='/DevOpsProject'/>
+                    <StardewMod 
+                        title="Vahti"
+                        backgroundImg={stardewImg}
+                        projectUrl='/StardewMod'/>
 
                 </div>
             </div>
