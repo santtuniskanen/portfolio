@@ -1,4 +1,3 @@
-import Image from 'next/image'
 import Head from 'next/head'
 import Navbar from '../components/Navbar.jsx'
 import Main from '../components/Main.jsx'
