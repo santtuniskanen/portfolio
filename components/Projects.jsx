@@ -1,10 +1,7 @@
 import React from "react";
 import Image from "next/image";
 import Link from "next/link";
-import Vahti from "./ProjectsComponents/Vahti";
-import BankSimul from "./ProjectsComponents/BankSimul";
-import DevOps from "./ProjectsComponents/DevOps";
-import StardewMod from "./ProjectsComponents/StardewModding";
+import ProjectComponent from "./ProjectComponents/ProjectComponent.jsx";
 import VahtiImg from "../public/assets/projects/vahti.jpg";
 import BankSimulImg from "../public/assets/projects/BankSimulatorImage.jpg";
 import DevOpsImg from "../public/assets/projects/DevOps.jpg";
@@ -19,21 +16,29 @@ const Projects = () => {
         </p2>
         <h2 className="py-4">What I've built</h2>
         <div className="grid md:grid-cols-2 gap-8">
-          <Vahti title="Vahti" backgroundImg={VahtiImg} projectUrl="/Vahti" />
-          <BankSimul
-            title="Vahti"
+          <ProjectComponent 
+            title="V.A.H.T.I" 
+            backgroundImg={VahtiImg} 
+            projectUrl="/vahti"
+            tech='Information Technology Application Project with Arduino'
+            />
+          <ProjectComponent
+            title="Bank Simulator"
             backgroundImg={BankSimulImg}
-            projectUrl="/BankSimul"
+            projectUrl="/banksimul"
+            tech='Bank Simulator Application written with C++/QT, Express.js and MySQL'
           />
-          <DevOps
-            title="Vahti"
+          <ProjectComponent
+            title="DevOps Application Project"
             backgroundImg={DevOpsImg}
-            projectUrl="/DevOpsProject"
+            projectUrl="/devopsproject"
+            tech='DevOps Software Development project with NextJS Web Development and DevOps technologies'
           />
-          <StardewMod
-            title="Vahti"
+          <ProjectComponent
+            title="Stardew Valley Modding"
             backgroundImg={stardewImg}
-            projectUrl="/StardewMod"
+            projectUrl="/stardewmod"
+            tech='Creating Stardew Valley mods with C# and SMAPI api.'
           />
         </div>
       </div>
