@@ -1,10 +1,9 @@
 import Head from "next/head";
-import Navbar from "../components/Navbar.jsx";
 import Main from "../components/Main.jsx";
 import About from "../components/About.jsx";
 import Skills from "../components/Skills.jsx";
 import Projects from "../components/Projects.jsx";
-import Contact from "@/components/Contact";
+import Contact from "../components/Contact.jsx";
 
 export default function Home() {
   return (
