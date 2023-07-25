@@ -3,7 +3,7 @@ import Image from "next/image";
 import Link from "next/link";
 import ProjectComponent from "./ProjectComponents/ProjectComponent.jsx";
 import VahtiImg from "../public/assets/projects/vahti.jpg";
-import BankSimulImg from "../public/assets/projects/BankSimulatorImage.jpg";
+import BankSimulImg from "../public/assets/projects/banksimul.jpg";
 import DevOpsImg from "../public/assets/projects/DevOps.jpg";
 import stardewImg from "../public/assets/projects/stardewImg.jpg";
 
@@ -38,7 +38,7 @@ const Projects = () => {
             title="Stardew Valley Modding"
             backgroundImg={stardewImg}
             projectUrl="/stardewmod"
-            tech='Creating Stardew Valley mods with C# and SMAPI api.'
+            tech='Creating Stardew Valley mods with C# and SMAPI.'
           />
         </div>
       </div>

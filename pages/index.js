@@ -12,7 +12,6 @@ export default function Home() {
       <Head>
         <title>Santtu Niskanen - Software Engineer</title>
       </Head>
-      <Navbar />
       <Main />
       <About />
       <Skills />
