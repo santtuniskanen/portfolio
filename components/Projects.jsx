@@ -2,6 +2,7 @@ import React from "react";
 import Image from "next/image";
 import Link from "next/link";
 import ProjectComponent from "./ProjectComponents/ProjectComponent.jsx";
+import ProjectTBAComponent from "./ProjectComponents/ProjectsComingSoon.jsx";
 import VahtiImg from "../public/assets/projects/vahti.jpg";
 import BankSimulImg from "../public/assets/projects/banksimul.jpg";
 import DevOpsImg from "../public/assets/projects/DevOps.jpg";
@@ -28,13 +29,13 @@ const Projects = () => {
             projectUrl="/banksimul"
             tech='Bank Simulator Application written with C++/QT, Express.js and MySQL'
           />
-          <ProjectComponent
+          <ProjectTBAComponent
             title="DevOps Application Project"
             backgroundImg={DevOpsImg}
             projectUrl="/devopsproject"
             tech='DevOps Software Development project with NextJS Web Development and DevOps technologies'
           />
-          <ProjectComponent
+          <ProjectTBAComponent
             title="Stardew Valley Modding"
             backgroundImg={stardewImg}
             projectUrl="/stardewmod"
