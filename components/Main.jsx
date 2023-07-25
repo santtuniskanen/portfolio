@@ -1,5 +1,6 @@
 import React from "react";
 import { FaGithub, FaLinkedin } from "react-icons/fa";
+import { Document } from "react-pdf";
 
 const Main = () => {
   return (
@@ -26,6 +27,14 @@ const Main = () => {
             <div className="shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300 bg-gradient-to-b from-sky-400 to-sky-200">
               <a href="https://linkedin.com/in/santtuniskanen">
                 <FaLinkedin />
+              </a>
+            </div>
+            <div className="shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300 bg-gradient-to-b from-orange-500 to-yellow-300">
+              <a
+                href="..public/assets/resume/santtuniskanen.pdf"
+                download
+              >
+                <p className="text-bold text-gray-800">Resume</p>
               </a>
             </div>
             <div className="shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300 bg-gradient-to-b from-orange-500 to-yellow-300">
