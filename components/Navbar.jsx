@@ -56,7 +56,7 @@ const Navbar = () => {
       <div className="flex justify-between items-center w-full px-2 2xl:px-16">
         <Image src={SalaLogo} alt="/" width="75" height="50" />
         <div>
-          <ul style={{color: `${linkColor}`}}className="hidden md:flex">
+          <ul style={{ color: `${linkColor}` }} className="hidden md:flex">
             <Link href="/">
               <li className="ml-10 text-sm uppercase hover:border-b">Home</li>
             </Link>
@@ -106,9 +106,7 @@ const Navbar = () => {
               </div>
             </div>
             <div className="border-b border-gray-300 my-4">
-              <p className="w-[85%] md:w-[90%] py-4">
-                Let&apos;s build something together
-              </p>
+              <p className="w-[85%] md:w-[90%] py-4">Let&apos;s go on a</p>
             </div>
           </div>
           <div className="py-4 flex flex-col">
@@ -145,10 +143,14 @@ const Navbar = () => {
               </p>
               <div className="flex items-center justify-between my-4 w-full sm:w-[80%]">
                 <div className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300">
-                  <FaLinkedinIn />
+                  <a href="https://linkedin.com/in/santtuniskanen">
+                    <FaLinkedinIn />
+                  </a>
                 </div>
                 <div className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300">
+                  <a href="https://github.com/santtuniskanen">
                   <FaGithub />
+                  </a>
                 </div>
                 <div className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300">
                   <AiOutlineMail />

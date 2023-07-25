@@ -1,8 +1,5 @@
 import React from "react";
 import { FaGithub, FaLinkedin } from "react-icons/fa";
-import { BsFillPersonLinesFill } from "react-icons/bs";
-import { AiOutlineMail } from "react-icons/ai";
-import Link from "next/link";
 
 const Main = () => {
   return (
@@ -18,10 +15,10 @@ const Main = () => {
               Santtu
             </span>
           </h1>
-          <h1 className="py-4 text-gray-700">A Software Engineer</h1>
+          <h1 className="py-4 text-gray-700">A not Software Engineer</h1>
           <p className="py-4 text-gray-600 max-w-[75%] m-auto">
-            I&apos;m a software engineer interested in building and delivering high
-            performance applications. I&apos;m currently focusing on DevOps
+            I&apos;m a software engineer interested in building and delivering
+            high performance applications. I&apos;m currently focusing on DevOps
             technologies like containerisation, deployment, infrastructure and
             automation.
           </p>
