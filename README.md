@@ -1,4 +1,4 @@
-# project portfolio website
+# DevOps Developer Portfolio
 This project is part of my summer education. The project foundations are built using the [IBM DevOps](https://www.coursera.org/professional-certificates/devops-and-software-engineering) course at [Coursera](https://www.coursera.org/).
 
 # Objective
