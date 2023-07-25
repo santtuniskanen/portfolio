@@ -31,8 +31,8 @@ const Contact = () => {
                 <h2 className="py-6 text-center">Santtu Niskanen</h2>
                 <p className="text-center italic ">Software Engineer</p>
                 <p className="py-3 text-center">
-                  I'm available for internship opportunies for Software Engineer
-                  positions. Interested? Let's talk!
+                  I&apos;m available for internship opportunies for Software Engineer
+                  positions. Interested? Let&apos;s talk!
                 </p>
               </div>
               <div>
