@@ -4,6 +4,7 @@ import Link from "next/link";
 import { FaGithub, FaLinkedin } from "react-icons/fa";
 import { BsFillPersonLinesFill } from "react-icons/bs";
 import { AiOutlineMail } from "react-icons/ai";
+import { HiOutlineChevronDoubleUp } from "react-icons/hi";
 import ContactImg from "../public/assets/contact.jpg";
 
 const Contact = () => {
@@ -16,7 +17,7 @@ const Contact = () => {
         <h2 className="py-4">Get In Touch</h2>
         <div className="grid lg:grid-cols-5 gap-8">
           {/* left */}
-          <div className="col-span-3 lg:col-span-2 w-full h-full shadow-xl shadow-gray-400 rounded-xl p-4">
+          <div className="col-span-3 lg:col-span-2 w-full h-full shadow-xl shadow-gray-400 rounded-xl p-4 border-2 border-black">
             <div className="lg:p-4 h-full ">
               <div>
                 <Image
@@ -53,6 +54,13 @@ const Contact = () => {
               </div>
             </div>
           </div>
+        </div>
+        <div className="flex justify-center py-12">
+          <Link href="/">
+            <div className="rounded-full shadow-lg shadow-gray-400 p-4 cursor-pointer hover:scale-110 ease-in duration-300">
+              <HiOutlineChevronDoubleUp className="text-[#5651e5]" size={30} />
+            </div>
+          </Link>
         </div>
       </div>
     </div>
