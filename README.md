@@ -11,7 +11,7 @@ Initially the idea was to build a simple web app and I had decided to go for a d
 
 ## Future of the website
 Learning never stops. The point of a developer portfolio is to show your skills, at least visually. 
-While I have to eventually update my skills, resume and projects, I also want to eventually try different layouts and color schemes for the website. 
+While I have to eventually update my skills, resume and projects, I also want to also try different layouts and color schemes for the website. 
 &nbsp;
 A roadmap for this website
 <ul>
@@ -20,7 +20,10 @@ A roadmap for this website
     <li>Dark/Light mode toggle</li>
 </ul>
 
-## Setting a few goals:
+# Testing
+One integral part of Software Development is testing. 
+
+# Setting a few goals:
 <li>Set up a pipeline to merge changes</li>
 <li>Automated testing</li>
 <li>Storing artifact into Github Container Registry</li>
