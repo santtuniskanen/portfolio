@@ -12,6 +12,7 @@ Initially the idea was to build a simple web app and I had decided to go for a d
 ## Future of the website
 Learning never stops. The point of a developer portfolio is to show your skills, at least visually. 
 While I have to eventually update my skills, resume and projects, I also want to also try different layouts and color schemes for the website. 
+<br>
 <br/>
 A roadmap for this website
 <ul>
