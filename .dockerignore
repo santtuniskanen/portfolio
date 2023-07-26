@@ -1,0 +1,8 @@
+# Docker Ignore 
+
+.git
+.results
+scripts
+*Dockerfile*
+node_modules
+.env
