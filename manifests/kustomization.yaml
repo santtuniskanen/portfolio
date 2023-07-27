@@ -8,4 +8,4 @@ namespace: nodejs
 images:
 - name: aks-nodejs-argocd
   newName: salamanteri/aks-nodejs-argocd
-  newTag: 23185ebc7bad96ee8c546a49749a983dedb17621
+  newTag: 09723163b6b5b285edc7feffc816aa15cdecfbbe
