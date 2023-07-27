@@ -1,0 +1,18 @@
+apiVersion: argoproj.io/v1alpha1
+kind: Application
+metadata:
+  name: aks-nodejs-argocd
+  namespace: argocd
+spec:
+  destination:
+    namespace: nodejs
+    server: "https://kubernetes.default.svc"
+  source:
+    path: manifests
+    repoURL: "https://github.com/santtuniskanen/portfolio"
+    targetRevision: cicd
+  project: default
+  syncPolicy:
+    automated:
+      prune: false
+      selfHeal: false
