@@ -1,8 +1,8 @@
 FROM node:16-alpine
-WORKDIR /usr/src/app
-COPY . .
-
+WORKDIR /app
+COPY package.json /app
+COPY yarn.lock /app
 RUN yarn install
-RUN yarn run build
+COPY . /app
 CMD ["yarn", "dev"]
 EXPOSE 3000
