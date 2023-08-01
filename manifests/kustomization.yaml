@@ -1,11 +1,14 @@
 apiVersion: kustomize.config.k8s.io/v1beta1
 kind: Kustomization
 resources:
-  - deployment.yaml
-  - service.yaml
-  - namespace.yaml
+- deployment.yaml
+- service.yaml
+- namespace.yaml
 namespace: nodejs
 images:
-  - name: portfolio_page
-    newName: portfolio_page
-    newTag: v1
+- name: portfolio_front
+  newName: salamanteri/portfolio_front
+  newTag: a07520350b8f725f643854d21e1f13c3794e42de
+- name: portfolio_page
+  newName: portfolio_page
+  newTag: v1
