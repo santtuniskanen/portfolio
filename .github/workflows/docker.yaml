@@ -8,8 +8,10 @@ on:
 
 jobs:
   build:
-    name: Login to ACR
-      - uses: azure/docker-login@v1
+    runs-on: ubuntu-latest
+    steps:
+      - name: Login to ACR
+        uses: azure/docker-login@v1
         with:
           login-server: ${{ secrets.ACR_LOGINSERVER }}
           username: ${{ secrets.ACR_USERNAME }}
