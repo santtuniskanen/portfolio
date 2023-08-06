@@ -16,6 +16,6 @@ jobs:
           login-server: ${{ secrets.ACR_LOGINSERVER }}
           username: ${{ secrets.ACR_USERNAME }}
           password: ${{ secrets.ACR_PASSWORD }}
-      - run: |
-        docker build . -t ${{ secrets.ACR_LOGINSERVER }}/portfolio-docker:latest
-        docker push ${{ secrets.ACR_LOGINSERVER }}/portfolio-docker:latest
+        run: |
+          docker build . -t ${{ secrets.ACR_LOGINSERVER }}/portfolio-docker:latest
+          docker push ${{ secrets.ACR_LOGINSERVER }}/portfolio-docker:latest
