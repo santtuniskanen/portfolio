@@ -5,25 +5,15 @@ on:
     branches:
       - main
 
-env:
-    IMAGE_NAME: portfolio-docker
 
 jobs:
-    build:
-        name: Build a container image
-        runs-on: ubuntu-latest
-        steps:
-            - name: Checkout Repository
-              uses: actions/checkout@v2
-            - name: Log into registry
-              uses: azure/docker-login@v1
-              with:
-                login-server: ${{ secrets.ACR_ENDPOINT }}
-                username: ${{ secrets.ACR_USERNAME }}
-                password: ${{ secrets.ACR_PASSWORD }}
-            - name: Build and push
-              uses: docker/build-push-action@v2
-              with:
-                push: true
-                build-args: |
-                tags: ${{ secrets.ACR_ENDPOINT }}/${{ env.IMAGE_NAME }}:latest
+  build:
+    name: Login to ACR
+      - uses: azure/docker-login@v1
+        with:
+          login-server: ${{ secrets.ACR_LOGINSERVER }}
+          username: ${{ secrets.ACR_USERNAME }}
+          password: ${{ secrets.ACR_PASSWORD }}
+      - run: |
+        docker build . -t ${{ secrets.ACR_LOGINSERVER }}/portfolio-docker:latest
+        docker push ${{ secrets.ACR_LOGINSERVER }}/portfolio-docker:latest
