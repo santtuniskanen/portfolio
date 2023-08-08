@@ -10,5 +10,5 @@ spec:
   source:
     path: manifests
     repoURL: "https://github.com/santtuniskanen/portfolio"
-    targetRevision: cicd
+    targetRevision: main
   project: default
