@@ -2,7 +2,7 @@ version: 2.1
 
 orbs:
   docker: circleci/docker@2.1.1
-  azure-aks: circleci/azure-aks@0.3.0
+  azure-aks: cimg/azure:2023.08
   kubernetes: circleci/kubernetes@1.3.0
 
 jobs:
@@ -66,7 +66,7 @@ jobs:
 
   bump-docker-tag-kustomize:
     docker:
-      - image: cimg/base:stable
+      - image: cimg/base:2023.08
     steps:
       - run:
           name: Install kustomize
