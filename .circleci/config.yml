@@ -41,7 +41,8 @@ jobs:
           command: argocd app wait $APP_NAME
 
   argocd-configure:
-    executor: azure-aks/default
+    docker:
+      - image: cimg/python:3.7
     parameters:
       cluster-name:
         description: |
