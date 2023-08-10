@@ -38,16 +38,16 @@ const Contact = () => {
               <div>
                 <p className="uppercase pt-8 text-center">Connect With Me</p>
                 <div className="flex items-center justify-center py-4 gap-8 ">
-                  <div className="shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300 bg-gradient-to-b from-sky-400 to-sky-200">
-                    <a href="https://linkedin.com/in/santtuniskanen">
-                      <FaLinkedin />
-                    </a>
-                  </div>
-                  <div className="shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300 bg-gradient-to-b from-orange-500 to-yellow-300">
-                    <a href="https://github.com/santtuniskanen">
-                      <FaGithub />
-                    </a>
-                  </div>
+                <Link href="https://linkedin.com/in/santtuniskanen">
+              <div className="shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300 bg-gradient-to-b from-sky-400 to-sky-200">
+                <FaLinkedin />
+              </div>
+            </Link>
+            <Link href="https://github.com/santtuniskanen">
+              <div className="shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300 bg-gradient-to-b from-orange-500 to-yellow-300">
+                <FaGithub />
+              </div>
+            </Link>
                 </div>
               </div>
             </div>
