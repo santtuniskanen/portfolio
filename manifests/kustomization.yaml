@@ -8,4 +8,4 @@ namespace: nodejs
 images:
 - name: portfolio_page
   newName: salamanteri/portfolio_page
-  newTag: cb9d87049b9804f6e32c57aefaf45c86043c2d7f
+  newTag: 7892cb7696a8594e054be5dc6b5d8329f09dad22
