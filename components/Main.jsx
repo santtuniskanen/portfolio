@@ -8,7 +8,7 @@ const Main = () => {
       <div className="max-v-[1240px] w-full h-full mx-auto p-2 flex justify-center items-center">
         <div className="">
           <p className="uppercase text-sm tracking-widest text-gray-600">
-            LET&apos;S GO ON A JOURNEY
+            Try not. Do or do not. There is no try.
           </p>
           <h1 className="py-4 text-gray-700">
             Hi, I&apos;m{" "}
@@ -20,8 +20,7 @@ const Main = () => {
           <p className="py-4 text-gray-600 max-w-[75%] m-auto ">
             I&apos;m a software engineer interested in building and delivering
             high performance applications. I&apos;m currently focusing on DevOps
-            technologies like containerisation, deployment, infrastructure and
-            automation.
+            technologies like containerisation and infrastructure.
           </p>
           <div className="flex items-center justify-between max-w-[330px] m-auto p-5">
             <Link href="https://linkedin.com/in/santtuniskanen">
