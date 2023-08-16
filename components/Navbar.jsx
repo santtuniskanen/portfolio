@@ -106,7 +106,7 @@ const Navbar = () => {
               </div>
             </div>
             <div className="border-b border-gray-300 my-4">
-              <p className="w-[85%] md:w-[90%] py-4">Let&apos;s go on a journey</p>
+              <p className="w-[85%] md:w-[90%] py-4">TRY NOT. DO OR DO NOT. THERE IS NO TRY.</p>
             </div>
           </div>
           <div className="py-4 flex flex-col">
@@ -138,26 +138,20 @@ const Navbar = () => {
               </Link>
             </ul>
             <div className="pt-40 ">
-              <p className="uppercase tracking-widest text-[#5651e5]">
+              <p className="uppercase tracking-widest from text-[#5651e5] to">
                 Let&apos;s Connect
               </p>
-              <div className="flex items-center justify-between my-4 w-full sm:w-[80%]">
-                <div className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300">
-                  <a href="https://linkedin.com/in/santtuniskanen">
-                    <FaLinkedinIn />
-                  </a>
-                </div>
-                <div className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300">
-                  <a href="https://github.com/santtuniskanen">
-                  <FaGithub />
-                  </a>
-                </div>
-                <div className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300">
-                  <AiOutlineMail />
-                </div>
-                <div className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300">
-                  <BsFillPersonLinesFill />
-                </div>
+              <div className="flex items-center justify-between my-4 w-full sm:w-[100%]">
+              <Link href="https://linkedin.com/in/santtuniskanen">
+              <div className="shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300 bg-gradient-to-b from-sky-400 to-sky-200">
+                <FaLinkedinIn />
+              </div>
+            </Link>
+            <Link href="https://github.com/santtuniskanen">
+              <div className="shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300 bg-gradient-to-b from-orange-500 to-yellow-300">
+                <FaGithub />
+              </div>
+            </Link>
               </div>
             </div>
           </div>
