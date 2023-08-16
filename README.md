@@ -1,6 +1,6 @@
 # DevOps Developer Portfolio
 
-![Vercel](https://vercelbadge.vercel.app/api/santtuniskanen/porfolio?style=for-the-badge)
+![Vercel](https://vercelbadge.vercel.app/api/santtuniskanen/porfolio)
 
 The goal of this project is to keep growing my Software Engineering skills by building, testing and debugging a web application. I am also learning different DevOps tools, like Docker, Kubernetes, Terraform and CI/CD pipelines.
 
