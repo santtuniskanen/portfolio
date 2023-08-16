@@ -1,4 +1,7 @@
 # DevOps Developer Portfolio
+
+![Vercel](https://vercelbadge.vercel.app/api/santtuniskanen/porfolio?style=for-the-badge)
+
 The goal of this project is to keep growing my Software Engineering skills by building, testing and debugging a web application. I am also learning different DevOps tools, like Docker, Kubernetes, Terraform and CI/CD pipelines.
 
 ## What is DevOps
@@ -22,7 +25,6 @@ A roadmap for this website
 </ul>
 
 # Testing
-One integral part of Software Development is testing. 
 
 # Setting a few goals:
 <li>Set up a pipeline to merge changes</li>
@@ -30,9 +32,3 @@ One integral part of Software Development is testing.
 <li>Storing artifact into Github Container Registry</li>
 <li>Deploying to a CaaS like Azure Container Instances</li>
 <li>Adding some metrics tracking</li>
-
-
-
-
-Tryingf to deploy this shit
-testing pipe
