@@ -1,7 +1,7 @@
 import React from "react";
 import Image from "next/image";
 import Link from "next/link";
-import Myself from "../public/assets/logo/myself.jpg";
+import Myself from "../public/assets/logo/myself2.jpg";
 
 const About = () => {
   return (
@@ -15,8 +15,8 @@ const About = () => {
           <p className="py-2 text-gray-600">
             I started growing an interest to computers pretty early on in my
             life. The fascination eventually grew big enough that I had to build
-            my own computer and I insisted to my parents that I&apos;d do all of it
-            myself. That interest eventually led me to different technology
+            my own computer and I insisted to my parents that I&apos;d do all of
+            it myself. That interest eventually led me to different technology
             related communities where I met some wonderful people who introduced
             me to the world of Software Engineering.
           </p>

@@ -10,13 +10,13 @@ const Main = () => {
           <p className="uppercase text-sm tracking-widest text-gray-600">
             Try not. Do or do not. There is no try.
           </p>
+          <h1 className="py-4 text-gray-700">Hello there, </h1>
           <h1 className="py-4 text-gray-700">
-            Hi, I&apos;m{" "}
+            I&apos;m{" "}
             <span className="text-white bg-gradient-to-r from-indigo-500 from-10% via-sky-500 via-30% to-emerald-500 to-90% hover:from-pink-500 hover:to-yellow-500">
               Santtu
             </span>
           </h1>
-          <h1 className="py-4 text-gray-700">A Software Engineer</h1>
           <p className="py-4 text-gray-600 max-w-[75%] m-auto ">
             I&apos;m a software engineer interested in building and delivering
             high performance applications. I&apos;m currently focusing on DevOps
