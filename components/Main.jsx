@@ -23,12 +23,12 @@ const Main = () => {
             technologies like containerisation and infrastructure.
           </p>
           <div className="flex items-center justify-between max-w-[330px] m-auto p-5">
-            <Link href="https://linkedin.com/in/santtuniskanen">
+            <Link href="https://linkedin.com/in/santtuniskanen" target="_blank" rel="noreferrer">
               <div className="shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300 bg-gradient-to-b from-sky-400 to-sky-200">
                 <FaLinkedin />
               </div>
             </Link>
-            <Link href="https://github.com/santtuniskanen">
+            <Link href="https://github.com/santtuniskanen" target="_blank" rel="noreferrer">
               <div className="shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300 bg-gradient-to-b from-orange-500 to-yellow-300">
                 <FaGithub />
               </div>
