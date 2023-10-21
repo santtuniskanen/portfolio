@@ -53,8 +53,7 @@ const Navbar = () => {
           : "fixed w-full h-20 z-[100]"
       }
     >
-      <div className="flex justify-between items-center w-full px-2 2xl:px-16">
-        <Image src={SalaLogo} alt="/" width="75" height="50" />
+      <div className="flex pt-6 justify-center items-center w-full px-2 2xl:px-16">
         <div>
           <ul style={{ color: `${linkColor}` }} className="hidden md:flex">
             <Link href="/">
@@ -97,7 +96,6 @@ const Navbar = () => {
         >
           <div>
             <div className="flex w-full items-center justify-between">
-              <Image src={SalaLogo} alt="/" width={87} height={35} />
               <div
                 onClick={handleNav}
                 className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer"
