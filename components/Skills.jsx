@@ -6,7 +6,7 @@ import LinuxSkill from "./SkillsComponents/SkillLinux.jsx";
 import RustSkill from "./SkillsComponents/SkillRust.jsx";
 import DockerSkill from "./SkillsComponents/SkillDocker.jsx";
 import AzureSkill from "./SkillsComponents/SkillAzure.jsx";
-import CppSkill from "./SkillsComponents/SkillCpp.jsx";
+import SpringSkill from "./SkillsComponents/SkillSpring.jsx";
 import PythonSkill from "./SkillsComponents/SkillPython.jsx";
 
 const Skills = () => {
@@ -22,7 +22,7 @@ const Skills = () => {
           <TailwindSkill />
           <PythonSkill />
           <RustSkill />
-          <CppSkill />
+          <SpringSkill />
           <LinuxSkill />
           <DockerSkill />
           <AzureSkill />
