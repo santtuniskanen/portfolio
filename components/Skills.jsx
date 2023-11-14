@@ -3,7 +3,7 @@ import React from "react";
 import ReactSkill from "./SkillsComponents/SkillReact.jsx";
 import TailwindSkill from "./SkillsComponents/SkillTailwind.jsx";
 import LinuxSkill from "./SkillsComponents/SkillLinux.jsx";
-import RustSkill from "./SkillsComponents/SkillRust.jsx";
+import CPPSkill from "./SkillsComponents/SkillCPP.jsx";
 import DockerSkill from "./SkillsComponents/SkillDocker.jsx";
 import AzureSkill from "./SkillsComponents/SkillAzure.jsx";
 import SpringSkill from "./SkillsComponents/SkillSpring.jsx";
@@ -21,7 +21,7 @@ const Skills = () => {
           <ReactSkill />
           <TailwindSkill />
           <PythonSkill />
-          <RustSkill />
+          <CPPSkill />
           <SpringSkill />
           <LinuxSkill />
           <DockerSkill />
