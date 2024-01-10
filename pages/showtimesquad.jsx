@@ -31,7 +31,7 @@ const ShowtimeSquad = () => {
               This project was quite different from out previous projects, since we had a lot more focus on project management this time around. While everyone was tasked to work with both the backend and the frontend, we had clear tasks that we could assign to ourselves from a Kanban board.
             </p>
             <p className="p-2">
-            I was pretty excited about this project since over the summer I had been increasingly interested in DevOps, and I finally had "real world" application to practice with. We didn&apos;t have nearly as much time as I expected, but I managed to write a pipeline for the build and testing of our Spring application.
+            I was pretty excited about this project since over the summer I had been increasingly interested in DevOps, and I finally had &apos;real world&apos; application to practice with. We didn&apos;t have nearly as much time as I expected, but I managed to write a pipeline for the build and testing of our Spring application.
             </p>
         </div>
         <div className="col-span-4 md:col-span-1 shadow-xl shadow-grey-400 rounded-xl p-4">
