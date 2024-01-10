@@ -5,7 +5,7 @@ import ProjectComponent from "./ProjectComponents/ProjectComponent.jsx";
 import ProjectTBAComponent from "./ProjectComponents/ProjectsComingSoon.jsx";
 import VahtiImg from "../public/assets/projects/vahti.jpg";
 import BankSimulImg from "../public/assets/projects/banksimul.jpg";
-import DevOpsImg from "../public/assets/projects/DevOps.jpg";
+import ShowtimeImg from "../public/assets/projects/showtimesquad.jpg";
 import stardewImg from "../public/assets/projects/stardewImg.jpg";
 
 const Projects = () => {
@@ -29,11 +29,11 @@ const Projects = () => {
             projectUrl="/banksimul"
             tech='Bank Simulator Application written with C++/QT, Express.js and MySQL'
           />
-          <ProjectTBAComponent
-            title="DevOps Application Project"
-            backgroundImg={DevOpsImg}
-            projectUrl="/devopsproject"
-            tech='DevOps Software Development project with NextJS Web Development and DevOps technologies'
+          <ProjectComponent
+            title="Web Development Project"
+            backgroundImg={ShowtimeImg}
+            projectUrl="/showtimesquad"
+            tech='Full Stack application development with React.JS, Spring Boot and PostgreSQL'
           />
           <ProjectTBAComponent
             title="Stardew Valley Modding"
