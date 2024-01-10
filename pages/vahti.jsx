@@ -53,8 +53,7 @@ const Vahti = () => {
                 <RiRadioButtonFill className="pr-1" /> Arduino Uno
               </p>
               <p className="text-gray-600 py-2 flex items-center font-bold">
-                <RiRadioButtonFill className="pr-1" /> Arduino C (Programming
-                Language)
+                <RiRadioButtonFill className="pr-1" /> Arduino C 
               </p>
               <p className="text-gray-600 py-2 flex items-center font-bold">
                 <RiRadioButtonFill className="pr-1" /> Git
