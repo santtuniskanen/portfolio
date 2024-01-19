@@ -9,7 +9,7 @@ import {
   CarouselPrevious,
 } from "@/components/ui/carousel";
 
-export default function ProjectCarousel() {
+export default function SchoolCarousel() {
   return (
     <Carousel
     opts={{

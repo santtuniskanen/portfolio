@@ -1,11 +1,11 @@
 "use client";
 
 import Main from '@/components/Main'
-import Projects from '@/components/Projects';
+import Projects from '@/components/Projects/Projects';
 
 export default function Home() {
   return (
-    <div className='border-solid border-2 border-sky-500'>
+    <div className=''>
       <Main />
       <Projects />
     </div>
