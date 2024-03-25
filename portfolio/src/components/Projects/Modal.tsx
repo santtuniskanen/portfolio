@@ -35,7 +35,6 @@ const Modal: React.FC<ModalProps> = ({ project, onClose }) => {
                     <div className="p-8">
                         <h2 className="text-2xl font-semibold mb-4">{project.title}</h2>
                         <p className="text-gray-700 dark:text-gray-300">{project.description}</p>
-                        {/* Add more project details here */}
                     </div>
                 </div>
             </div>

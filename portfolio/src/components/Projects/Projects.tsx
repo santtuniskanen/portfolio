@@ -1,4 +1,4 @@
-import React, {useState} from 'react';
+import React, { useState } from 'react';
 import SchoolCarousel from "./SchoolCarousel";
 import PersonalCarousel from "./PersonalCarousel";
 import Modal from './Modal';
@@ -34,17 +34,18 @@ export default function Projects() {
 
   const closeModal = () => {
     setSelectedProject(null);
-  }
+  };
+
   return (
     <div
       id="projects"
       className="w-full md:h-screen p-2 flex items-center py-16"
-    >
+      >
       <div className="max-w-[1240px] m-auto">
         <div className="max-w-[1240px] m-auto md:grid grid-cols-2 items-center gap-8">
           <h1>Personal projects.</h1>
           <div className="pl-16">
-            <PersonalCarousel openModal={openModal}/>
+            <PersonalCarousel openModal={openModal} />
             <Modal project={selectedProject} onClose={closeModal} />
           </div>
         </div>
@@ -56,5 +57,5 @@ export default function Projects() {
         </div>
       </div>
     </div>
-  );
+    );
 }

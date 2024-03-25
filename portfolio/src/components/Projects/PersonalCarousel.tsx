@@ -9,7 +9,10 @@ import {
   CarouselPrevious,
 } from "@/components/ui/carousel";
 
-export default function PersonalCarousel({ openModal }) {
+interface PersonalCarouselProps {
+  openModal: (index: number) => void;
+}
+const PersonalCarousel: React.FC<PersonalCarouselProps> = ({ openModal }) => {
   return (
     <div className="flex flex-col">
       <Carousel
@@ -23,6 +26,7 @@ export default function PersonalCarousel({ openModal }) {
             <CarouselItem key={index} className="md:basis-1/2 lg:basis-1/2">
               <div className="p-1">
                 <Card
+                  className="cursor-pointer"
                   onClick={() => openModal(index)}
                   >
                   <CardContent className="flex aspect-square items-center justify-center p-6">
@@ -39,3 +43,5 @@ export default function PersonalCarousel({ openModal }) {
     </div>
     );
 };
+
+export default PersonalCarousel;
