@@ -1,29 +1,41 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import SchoolCarousel from "./SchoolCarousel";
 import PersonalCarousel from "./PersonalCarousel";
 import Modal from './Modal';
 
 export default function Projects() {
   const [selectedProject, setSelectedProject] = useState(null);
+  const [isModalOpen, setIsModalOpen] = useState(false);
 
   const openModal = (index: number) => {
+    setIsModalOpen(true);
+    const dinosaur = "/assets/dinosaur.jpg";
+    const fitness = "/assets/fitness.jpg";
+    const notes = "/assets/notes.jpg";
+    const portfolio = "/assets/portfolio.jpg";
+
     const projects = [
       {
-        title: "Project 1",
-        description: "Description of Project 1",
-        // Add more details as needed
+        background: portfolio,
+        title: "Portfolio",
+        description: "Portfolio Website.",
       },
       {
-        title: "Project 2",
-        description: "Description of Project 2",
-        // Add more details as needed
+        background: dinosaur,
+        title: "Rust Raptor",
+        description: "Grep clone written in Rust.",
       },
       {
-        title: "Project 3",
-        description: "Description of Project 3",
-        // Add more details as needed
+        background: notes,
+        title: "Memory Lane",
+        description: "Note taking application written with React + TS, Tailwind & PostgreSQL.",
       },
-      // Add more projects as needed
+      {
+        background: fitness,
+        title: "Workout Tracker",
+        description: "Swift iOS application to track your workouts.",
+
+      },
     ];
 
     if (index >= 0 && index < projects.length) {
@@ -34,7 +46,18 @@ export default function Projects() {
 
   const closeModal = () => {
     setSelectedProject(null);
+    setIsModalOpen(false);
   };
+
+  useEffect(() => {
+    if (isModalOpen) {
+      // Disable scrolling
+      document.body.style.overflow = 'hidden';
+    } else {
+      // Enable scrolling
+      document.body.style.overflow = 'auto';
+    }
+  }, [isModalOpen]);
 
   return (
     <div
