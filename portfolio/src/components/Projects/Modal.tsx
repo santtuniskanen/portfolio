@@ -34,25 +34,44 @@ const Modal: React.FC<ModalProps> = ({ project, onClose }) => {
             </svg>
           </button>
           <div className="relative">
-          <Image
+            <Image
               className="object-none h-72 w-300"
               src={project.background}
               width={800}
               height={300}
               alt="Background"
             />
-            <div className="absolute bottom-0 left-0 p-8  text-white">
-              <h2 className="text-2xl font-semibold bg-black p-1">{project.title}</h2>
+            <div className="absolute bottom-0 left-0 p-8 text-white flex items-center">
+              <h2 className="text-2xl font-semibold bg-black p-1">
+                {project.title}
+              </h2>
             </div>
+            <div className="absolute bottom-0 right-0 p-8 text-white flex items-center">
+              <a href={project.url} target="_blank">
+                <img
+                  src="https://skillicons.dev/icons?i=github"
+                  className="ml-auto"
+                  alt="GitHub Icon"
+                />
+              </a>
             </div>
-            <div className="p-8">
-              <p className="text-gray-700 dark:text-gray-300">
-                {project.description}
-              </p>
-            </div>
+          </div>
+          <div className="p-8">
+            <p className="text-gray-700 dark:text-gray-300">
+              {project.description1}
+            </p>
+            <br></br>
+            <p className="text-gray-700 dark:text-gray-300">
+              {project.description2}
+            </p>
+            <br></br>
+            <p className="text-gray-700 dark:text-gray-300">
+              {project.description3}
+            </p>
           </div>
         </div>
       </div>
+    </div>
   );
 };
 

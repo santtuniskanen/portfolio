@@ -20,8 +20,8 @@ const Main: React.FC = () => {
         </div>
         <div className="max-w-[400px]">
           <p className="text-white text-2xl py-8 text-right leading-10">
-            A passionate software engineering student with a keen focus on
-            <span className="bg-gradient-to-r from-lime-400 to-lime-800 bg-clip-text text-transparent"> Backend Development</span> and <span className="bg-gradient-to-r from-blue-400 to-sky-900 bg-clip-text text-transparent">DevOps technologies.</span>
+            A passionate Software Engineering student with a keen focus on
+            <span className="text-[#FF7F0E]"> Backend Development</span> and <span className="text-[#FF7F0E]">DevOps technologies.</span>
           </p>
         </div>
       </div>

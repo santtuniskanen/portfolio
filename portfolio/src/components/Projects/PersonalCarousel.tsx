@@ -12,6 +12,7 @@ import {
 interface PersonalCarouselProps {
   openModal: (index: number) => void;
 }
+
 const PersonalCarousel: React.FC<PersonalCarouselProps> = ({ openModal }) => {
   return (
     <div className="flex flex-col">
