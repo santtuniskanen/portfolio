@@ -9,7 +9,7 @@ interface ModalProps {
 
 const Modal: React.FC<ModalProps> = ({ project, onClose }) => {
   if (!project) return null;
-  const background = '/assets/topography.svg';
+
   return (
     <div className="fixed inset-0 z-50 overflow-y-auto backdrop-blur-lg">
       <div className="flex items-center justify-center min-h-screen">
@@ -34,7 +34,13 @@ const Modal: React.FC<ModalProps> = ({ project, onClose }) => {
             </svg>
           </button>
           <div className="relative">
-          <Image className="object-none h-72 w-300" src={project.background} width={800} height={300} alt="Background" />
+          <Image
+              className="object-none h-72 w-300"
+              src={project.background}
+              width={800}
+              height={300}
+              alt="Background"
+            />
             <div className="absolute bottom-0 left-0 p-8  text-white">
               <h2 className="text-2xl font-semibold bg-black p-1">{project.title}</h2>
             </div>

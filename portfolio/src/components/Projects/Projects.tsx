@@ -3,7 +3,7 @@ import SchoolCarousel from "./SchoolCarousel";
 import PersonalCarousel from "./PersonalCarousel";
 import Modal from './Modal';
 
-export default function Projects() {
+const Projects: React.FC = () => {
   const [selectedProject, setSelectedProject] = useState(null);
   const [isModalOpen, setIsModalOpen] = useState(false);
 
@@ -82,3 +82,5 @@ export default function Projects() {
     </div>
     );
 }
+
+export default Projects;
